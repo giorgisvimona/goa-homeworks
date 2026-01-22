@@ -1,0 +1,32 @@
+p{
+    border:dotted 2px;
+    color: blue;
+}
+img{
+    border: solid black 40px;
+}
+h1{
+    border: solid;
+}
+h2{
+    border: dashed;
+}
+h3{
+    border: dotted;
+}
+div.smff{
+    border: solid ;
+    margin: 20px 20px 20px 20px;
+}
+div.smf{
+    border: solid ;
+    padding: 20px 20px 20px 20px;
+}
+h4{
+    border: solid;
+    padding: 5px 10px 20px 15px;
+}
+h5{
+    border: solid;
+    margin: 15px 5px 100px 20px;
+}
