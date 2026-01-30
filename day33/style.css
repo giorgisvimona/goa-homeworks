@@ -1,0 +1,32 @@
+div.box1{
+    color: blue;
+    background-color: yellow;
+    text-align: center;
+    border: solid 5px black;
+    padding: 10px;
+    margin: 10px;
+}
+div.box2{
+    color: blue;
+    background-color:black;
+    text-align: center;
+    border: solid 5px red;
+    padding: 10px;
+    margin: 10px;
+}
+div.box3{
+    color: yellow;
+    background-color: green;
+    text-align: center;
+    border: solid 5px blue;
+    padding: 10px;
+    margin: 10px;
+}
+div.box4{
+    border: solid 5px blue ;
+    margin: 60px;
+}
+div.box5{
+    border: solid 5px blue ;
+    margin: 60px;
+}
