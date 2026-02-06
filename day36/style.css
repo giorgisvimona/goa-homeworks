@@ -1,0 +1,76 @@
+/*შექმენით flex კონტეინერი, ჩაამატეთ მასში 3 ელემენტი  და განალაგეთ ისინი ჰორიზონტალურად*/
+.container {
+  display: flex;
+}
+/*-შექმენით flex კონტეინერი, ჩაამატეთ მასში 3 ელემენტი და გაცენტრეთ სამივე*/
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*შექმენით flex კონტეინერი, ჩაამატეთ მასში 3 ელემენტი, შემდეგ ელემენტებს შორის იყოს თანაბარი მანძილი/დაშორება*/
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+/*შექმენით flex კონტეინერი, ჩაამატეთ მასში 3 ელემენტი, შემდეგ სამივე ელემენტი ერთ ხაზზე დააწყვეთ (align-items)
+*/
+.container {
+  display: flex;
+  align-items: center;
+}
+/*შექმენით flex კონტეინერი, ჩაამატეთ მასში 5 დიდი ზომის ელემენტი, შემდეგ კი გაითვალისწინეთ ის, რომ ელემენტები ერთ ხაზზე არ იყოს მიჭუჭყული (ახალ ხაზზე გადავიდეს)
+*/
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+/*შექმენით flex კონტეინერი, ჩაამატეთ მასში 3 ელემენტი, სამივე განალაგეთ ვერტიკალურად და გაცენტრეთ, მოახდინეთ შუაში
+*/
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/*შექმენით flex კონტეინერი, ჩაამატეთ მასში 3 ელემენტი, სამივე განალაგეთ ჰორიზონტალურად და გაცენტრეთ
+*/
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*შექმენით flex კონტეინერი, ჩაამატეთ მასში 3 ელემენტი და სამივე ელემენტი გადაიტანეთ მარჯვნივ
+*/
+.container {
+  display: flex;
+  justify-content: flex-end;
+}
+/*შექმენით flex კონტეინერი, ჩაამატეთ მასში 3 ელემენტი და სამივე ელემენტი გადაიტანეთ მარცხნივ
+*/
+.container {
+  display: flex;
+  justify-content: flex-start;
+}
+/*შექმენით flex კონტეინერი, ჩაამატეთ მასში 3 ელემენტი და მათ შორის იყოს თანაბარი დაშორება (ელემენტებს შუაშიც და მათ გარშემოც)
+*/
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+/*შექმენით flex კონტეინერი, ჩაამატეთ მასში 3 ელემენტი, სამივე იყოს სხვადასხვა ზომის და შემდეგ მოახდინეთ ერთ ხაზზე, ანუ შუა ხაზზე
+*/
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.small { height: 40px; }
+.normalllllllll { height: 60px; }
+.big { height: 100px; }
+
+
+
+
