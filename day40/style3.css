@@ -1,0 +1,5 @@
+body{
+    width: 500;
+    height: 500;
+    background: linear-gradient(90deg,to right, green, black, red); 
+}
