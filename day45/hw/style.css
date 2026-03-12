@@ -1,0 +1,18 @@
+.book{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+body{
+    background: linear-gradient(to right,red 50%, blue )
+}
+button{
+    background-color: black;
+    color: white;
+}
+h3{
+    color:black;
+}
+h1{
+    color:black;
+}
