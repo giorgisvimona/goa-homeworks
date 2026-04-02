@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //სავარჯიშო 2: შესვლა სისტემაში (ლოგინი) დავალება: 
+        //შექმენი პროგრამა, რომელიც ამოწმებს მომხმარებლის სახელს და პაროლს: 
+        //თუ სახელი "admin" და პაროლი "12345" → "მოგესალმებით, მიხარია რომ დაბრუნდით!" 
+        //თუ სახელი სწორია, მაგრამ პაროლი არასწორია → "პაროლი არასწორია!" 
+        //თუ სახელი არასწორია → "მომხმარებელი ვერ მოიძებნა!"
+        let name = "admin";
+        let password = "12345";
+        if( name == "admin" && password=="12345") {
+            console.log("მოგესალმებით, მიხარია რომ დაბრუნდით!")
+        } else if (name!=="admin" && password!=="12345"){
+            console.log("პაროლი არასწორია!")
+        } else{
+            console.log("მომხმარებელი ვერ მოიძებნა!")
+        }
+
+    </script>
+</body>
+</html>
