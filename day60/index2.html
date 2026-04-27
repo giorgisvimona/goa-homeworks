@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation: animacia 5s infinite;
+  }
+
+  @keyframes animacia {
+    0% {
+      transform: translate(0, 0) scale(1) rotate(0deg);
+    }
+    25% {
+      transform: translate(0, 200px) scale(1) rotate(0deg);
+    }
+    50% {
+      transform: translate(500px, 200px) scale(1) rotate(0deg);
+    }
+    75% {
+      transform: translate(500px, 200px) scale(1.5) rotate(360deg); 
+    }
+    100% {
+      transform: translate(0, 0) scale(1) rotate(0deg); 
+    }
+  }
+</style>
+</head>
+<body>
+    <!--შექმენით რაიმე ელემენტი, ჯერ ჩავიდეს ქვემოთ 200 პიქსელით, 
+    მარჯვნიც 500 პიქსელით, ზომა 1.5ჯერ გაიზარდოს, დატრიალდეს 360 გრადუსით 
+    და დაუბრუნდეს საწყის პოზიციას-->
+    <div class="box"></div>
+</body>
+</html>
