@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media (max-width: 768px) {
+  body {
+    background-color: green;
+  }
+  }
+/* დაწერე @media query, რომელიც ცვლის ფონურ ფერს, როცა ეკრანი 1200px-ზე მეტია*/
+@media (min-width: 1200px) {
+  body {
+    background-color: red;
+  }
+}
+/* შექმენი ანიმაცია, რომელიც ელემენტს უსასრულოდ ატრიალებს (infinite loop) */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+.box {
+  animation: spin 2s infinite;
+}
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <!-- როგორ მუშაობს animation-duration, animation-delay და animation-iteration-count? განმარტე თითოეული
+     animation duration ნიშნავს რამდენ ხანს გრძელდება animacia
+     animation delay ნიშნავს რამდენ ხანში დაიწყება animacia
+     animation iteration count ნიშნავს რამდენჯერ შესრულდება animacia
+    ახსენი რას აკეთებს CSS Media Queries და რატომ არის მნიშვნელოვანი responsive დიზაინშ
+    საიტი უნდა გამოჩნდეს ლამაზად და არ აირიოს სხვადასხვა დივაისზე მაგალითად ტელეფონზე
+    დაწერე @media query, რომელიც გამოიყენება მაშინ, როცა ეკრანის სიგანე არის 768px-ზე ნაკლები -->
+</body>
+</html>

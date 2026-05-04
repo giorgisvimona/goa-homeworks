@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            animation: animacia 3s infinite;
+        }
+        @keyframes animacia{
+            from{
+                background-color: red;
+            }to{
+                background-color: blue;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- რა განსხვავებაა transition-სა და CSS Animation შორის? მოიყვანე მაგალითები
+     transition მუშაობს მხოლოდ მაშინ როცა მდგომარეობა იცვლება მაგალითად hover,active,visited...
+     animation მუშაობს დამოუკიდებლად
+დაწერე @keyframes, რომელიც ელემენტს ფერს უცვლის წითლიდან ლურჯამდე -->
+<div class="box"></div>
+</body>
+</html>
