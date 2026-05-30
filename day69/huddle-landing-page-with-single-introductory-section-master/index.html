@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+  <style>
+    .attribution { font-size: 0.6875rem; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+   background-color:hsl(257, 40%, 49%);
+   background-image:url('./images/bg-desktop.svg');
+   background-repeat:no-repeat;
+   background-size:cover;
+   color:white;
+  }
+  .container{
+   width:100%;
+   max-width: 1200px;
+   padding:40px;
+  }
+  .logo{
+    width:200px;
+  }
+  main{
+    display:flex;
+    align-items:center;
+    gap:50px;
+    margin-top:50px;
+  }
+  .image1{
+    width:100%;
+  }
+  button{
+    border:none;
+    padding:10px 50px;
+    border-radius:25px;
+    color:hsl(257, 40%, 49%);
+    background:white;
+    font-size:15px;
+    transition:.3s;
+    box-shadow: 3px 3px 3px black;
+  } 
+  .insta{
+    display:flex;
+    gap:15px;
+    margin-top:100px;
+    justify-content:flex-end;
+  }
+  .insta i{
+    width:50px;
+    height:50px;
+    border:1px solid white;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="./images/logo.svg" alt="logo" class="logo" />
+    </header>
+
+    <main>
+      <div>
+        <img src="./images/illustration-mockups.svg" alt="photo1"class="image1"/>
+      </div>
+
+      <div>
+        <h1>Build The Community Your Fans Will Love</h1>
+        <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+  Create connections with your users as you engage in genuine discussion. </p>
+        <button>Register</button>
+        <div class="insta">
+          <i>f</i>
+          <i>t</i>
+          <i>i</i>
+        </div>
+      </div>
+    </main>
+  </div>
+      <footer class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+      Coded by <a href="#">giorgi svimonishvili</a>.
+      </footer>
+</body>
+</html>
