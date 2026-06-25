@@ -1,0 +1,38 @@
+.box::before {
+    content: "a";
+    color: red;
+}
+.box::after {
+    content: "a";
+    color: blue;
+}
+.text::first-letter {
+    color: brown
+}
+.text::first-line {
+    background-color: blue;
+    color: purple;
+}
+::selection {
+    background: black;
+    color: white;
+}
+input::placeholder {
+    color: red;
+}
+li::marker {
+    color: red;
+}
+dialog {
+    width: 400px;
+}
+dialog::backdrop {
+    background: rgba(0,0,0,0.7);
+    filter: blur(200px);
+}
+dialog h1 {
+    color: blue;
+}
+dialog p {
+    color: red;
+}

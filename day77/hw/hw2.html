@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        dialog::backdrop{
+    background:black;
+}
+    </style>
+</head>
+<body>
+    <!--  4) შექმენით მოდალური ფანჯარა რომელშიც იქნება მინიმუმ 5 ნებისმიერი თეგი და ღილაკი close, მოდალური 
+    ფანჯარა კარგად გასტილეთ და აუცილებლად გამოიყენეთ შემდეგი მეთოდები: .close() და .showModal(). -->
+    <button onclick="box.showModal()">open</button>
+    <dialog id="box">
+<h1>hello georgia</h1>
+<h2>hi</h2>
+<p>hi</p>
+<p>text</p>
+<p>hello</p>
+<button onclick="box.close()">close</button>
+</dialog>
+<!-- 5) მოიყვანეთ 2 - 2 პსევდო ელემენტების გამოყენების მაგალითი (backdrop - ისთვის შექმენით ცალკე მოდალური 
+ ფანჯარა, არ გამოიყენოთ წინა დავალებაზე შექმნილი) -->
+ <button onclick="second.showModal()">open</button>
+<dialog id="second">
+<h2>hi</h2>
+<p>hello</p>
+<button onclick="second.close()">close</button>
+</dialog>
+</body>
+</html>
