@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+    ```<h1 id="heading">Greetings</h1>
+<p id="text">Hello</p>``` წამოიღეთ DOM-იდან ორივე ელემენტი
+#heading თეგს შეუცვალეთ სტილი: ტექსტი იყოს ლურჯი ფერის და უკანა ფონი შავი ფერის 
+#text თეგს შეუცვალეთ სტილი: padding გახადეთ 60 პიქსელი და უკანა ფონი მწვანე ფერის-->
+<h1 id="heading">Greetings</h1>
+<p id="text">Hello</p>
+<script>
+    let header = document.getElementById("heading");
+    let hi = document.getElementById("text");
+    header.style.color = "blue";
+    header.style.backgroundColor = "black";
+    hi.style.padding = "60px";
+    hi.style.backgroundColor = "green";
+</script>
+</body>
+</html>

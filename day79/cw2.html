@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- წამოიღეთ ყველა თეგი და მხოლოდ პირველ ელემენტს შეუცვალეთ სტილები 
+     <h1 class="heading">Greetings</h1> <p class="text">Hello</p> <p class="text">Hello</p> <p class="text">Hello</p> <p class="text">Hello</p><p class="text">Hello</p> 
+წამოიღეთ ყველა თეგი და ყველა .text თეგს შეუცვალეთ სტილი -->
+    <h1 class="heading">Greetings</h1>
+    <p class="text">Hello</p>
+    <p class="text">Hello</p>
+    <p class="text">Hello</p>
+    <p class="text">Hello</p>
+    <p class="text">Hello</p>
+
+<script>
+    let head = document.querySelector(".heading");
+    head.style.color = "blue";
+    head.style.backgroundColor = "black";
+
+    let texts = document.querySelectorAll(".text");
+    function idk(text) {
+        text.style.color = "blue";
+        text.style.backgroundColor = "red";
+    }
+
+    texts.forEach(idk);
+</script>
+</body>
+</html>
