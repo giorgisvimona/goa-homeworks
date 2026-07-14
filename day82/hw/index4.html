@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colors</title>
+
+    <style>
+        #box{
+            width:200px;
+            height:200px;
+            background:white;
+            border:2px solid black;
+            margin-top:20px;
+        }
+    </style>
+</head>
+<body>
+
+<button id="red">Red</button>
+<button id="blue">Blue</button>
+<button id="black">Black</button>
+<button id="green">Green</button>
+<button id="yellow">Yellow</button>
+<div id="box"></div>
+
+<script>
+
+let box = document.getElementById("box");
+
+let red = document.getElementById("red");
+let blue = document.getElementById("blue");
+let green = document.getElementById("green");
+let yellow = document.getElementById("yellow");
+let black = document.getElementById("black");
+
+function redColor() {
+    box.style.backgroundColor = "red";
+}
+
+function blueColor() {
+    box.style.backgroundColor = "blue";
+}
+
+function greenColor() {
+    box.style.backgroundColor = "green";
+}
+
+function yellowColor() {
+    box.style.backgroundColor = "yellow";
+}
+
+function blackColor() {
+    box.style.backgroundColor = "black";
+}
+
+red.addEventListener("click", redColor);
+blue.addEventListener("click", blueColor);
+green.addEventListener("click", greenColor);
+yellow.addEventListener("click", yellowColor);
+black.addEventListener("click", blackColor);
+
+</script>
+
+</body>
+</html>
